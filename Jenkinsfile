@@ -23,7 +23,7 @@ pipeline {
         stage('Deploy')
         {
             steps{
-                sh 'surge ./_build/ mario.surge.sh --token $TOKEN'
+                sh 'surge ./_build/ mariozg.surge.sh --token $TOKEN'
             }
         }
         
